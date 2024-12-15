@@ -31,6 +31,7 @@ Components that have a "deactivation part" (for example leaving an ObjectActivat
 In a case where `On Dis Activate()` runs, it also reverts the `To Activate Objects`, `To Dis Activate Objects` states. Objects in `To Activate Objects` become **in**active, and objects in `To Dis Activate Objects` become **active**.
 
 Notably used in:
+* Component Events
 - [Object Activator](/components/object-activator)
 - Variable Watchers
 

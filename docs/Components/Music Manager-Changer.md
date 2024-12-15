@@ -2,7 +2,7 @@
 
 ## Intro
 
-`MusicManager` is a GameObject required for playing music. It exists in every ULTRAKILL level.
+`MusicManager` is a Game Object required for playing music. It exists in every ULTRAKILL level.
 
 `MusicManager` is a child of `StatsManager` (*a GameObject that handles player stats, such as ranks, secrets, the timer, checkpoints, etc*). 
 

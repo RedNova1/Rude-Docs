@@ -1,13 +1,13 @@
-# Scripting 101 (Advanced Tutorial)
+# Scripting
 
-This will teach you how to set up a Visual Studio project for Ultrakill [custom script making](https://docs.unity3d.com/2019.4/Documentation/Manual/ScriptingSection.html). 
+This will teach you how to set up a Visual Studio project for ULTRAKILL [custom script making](https://docs.unity3d.com/2019.4/Documentation/Manual/ScriptingSection.html). 
 
 ## Prerequisites
-- [**Visual Studio**](), prefebally version 2022.
+- [**Visual Studio**](), preferably version 2022.
 - **Bepinex Templates**. If not installed, `run dotnet new -i BepInEx.Templates` `--nuget-source https://nuget.bepinex.dev/v3/index.json` from command line.
-- **Bepinex Nuget Source**. Run `dotnet nuget add source https://nuget.bepinex.dev/v3/index.json --name Bepinex` just in case
+- **Bepinex NuGet Source**. Run `dotnet nuget add source https://nuget.bepinex.dev/v3/index.json --name Bepinex` just in case
 
-## Insalling the Template
+## Installing the Template
 Download the template below to get started.
 
 [Ultrakill Scripting Template](../../../../../../Users/coolboi_21/Downloads/UltrakillProject.zip)
@@ -47,7 +47,7 @@ Custom scripting for the Rude Level Editor has some limitations, listed below:
 
 
 ## Conclusion
-Now you can get started creating custom scripts to bring your Ultrakill levels to... the next level!
+Now you can get started creating custom scripts to bring your ULTRAKILL levels to... the next level!
 
 Maybe even follow the [enemy creation tutorial]() to learn how to create your own custom enemies!
 

@@ -1,7 +1,8 @@
 * [Home](/Home.md)
-* [Quick Start](/Quick-Start/Quick-Start.md)
-    * [Setting up your First Level!](/Quick-Start/Creating%20Levels.md)
-    * [The Basics to Level Creation](/Quick-Start/Creating%20Levels.md)
+* Setup
+	* [Installation](/Setup/Installation.md)
+	* [Quick Start](/Setup/Quick-Start.md)
+	    * [Level Setup](Creating-Levels.md)
 
 
 [FAQ](/FAQ.md)
@@ -15,15 +16,15 @@
         
 * Tutorials
     * Beginner
-        * [Creating Checkpoints](/Tutorials/Beginner/Creating%20Checkpoints.md)
-        * [Creating Arenas](/Tutorials/Beginner/Creating%20Arenas.md)
-        * [Lighting 101](/Tutorials/Beginner/Lighting%20101.md)
+        * [Creating Checkpoints](Creating%20Checkpoints.md)
+        * [Creating Arenas](Creating%20Arenas.md)
+        * [Lighting](Lighting.md)
 
     * Intermediate
-        * [Discord Integration](/Tutorials/Intermediate/Discord%20Integration%20Setup.md)
+        * [Discord Integration](Discord%20Integration.md)
         * [Optimization 101](/Tutorials//Intermediate/Optimization%20101.md)
 
     * Advanced
-        * [Scripting 101](/Tutorials/Advanced/Scripting%20101.md)
+        * [Custom Scripting](Custom%20Scripting.md)
 
 * [Resources](/Resources/Resources.md)

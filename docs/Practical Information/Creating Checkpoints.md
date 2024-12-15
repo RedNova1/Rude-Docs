@@ -19,7 +19,7 @@ Both work fairly similarly, though there is a fair bit of special setup required
 
 ## Room Setup
 
-Your level **should be separated into rooms** (see: [Optimization 101](/Tutorials/Intermediate/Optimization%20101.md)), typically each room only having one [enemy arena](/Tutorials/Beginner/Creating%20Arenas.md) in it.
+Your level **should be separated into rooms** (see: [Optimization](Optimization.md)), typically each room only having one [enemy arena](Creating%20Arenas.md) in it.
 
 The base game names topmost room GameObjects with the pattern `X - Name`. The examples below will use `1 - Example Room`.
 
@@ -31,7 +31,7 @@ The base game names topmost room GameObjects with the pattern `X - Name`. The ex
 **`1 Stuff` should have a `Gore Zone` component.** Anything that can produce gore or can be broken needs a GoreZone to reset properly.
 The exact location often does not matter (it just needs to be a parent, grandparent, etc of enemies and such), but this is a very convenient place to put it.
 
-![room structure](assets/creating-checkpoints-scene-layout.png)
+![room structure](creating-checkpoints-scene-layout.png)
 
 ## Checkpoint Setup
 
@@ -50,7 +50,7 @@ The difference between the two is when the save happens:
 
 **Set `Doors To Unlock` to unlock any doors to enemy arenas where you could have reloaded the checkpoint.** Otherwise, the checkpoint isn't going to do much good if you can't get back to where you died.
 
-![checkpoint settings](assets/creating-checkpoints-checkpoint-settings.png)
+![checkpoint settings](creating-checkpoints-checkpoint-settings.png)
 
 ---
 

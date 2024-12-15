@@ -1,4 +1,4 @@
-# Optimization 101
+# Optimization
 ---
 This page is empty. Documentation will be added in the future!
 

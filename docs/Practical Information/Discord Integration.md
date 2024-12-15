@@ -1,4 +1,4 @@
-# Setting up Discord Integration (Intermediate Tutorial)
+# Setting up Discord Integration
 This tutorial will show you how to set up **discord integration** for your level, so when someone is playing your level it can display in discord.
 
 
@@ -20,14 +20,14 @@ Go to any site that you can upload images (**and host them!**) we use `https://i
 
 Then upload your image and then right click the image and click on the button that says `Copy image address`. 
 
-![copy image](assets/discord-integration-tut-copyimage.webp)
+![copy image](discord-integration-tut-copyimage.webp)
 
 ### Step 3: Getting the image into the level info
 Return to Unity, find and select the `Level Info`.
 
 Paste the link you have copied into the `Large Image` field.
 
-![paste link](assets/discord-integration-tut-paste-image-link.png)
+![paste link](discord-integration-tut-paste-image-link.png)
 
 ---
 

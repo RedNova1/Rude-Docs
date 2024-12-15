@@ -1,5 +1,12 @@
 # Setting Up Your First Level
 
+> [!IMPORTANT]
+> If coming from [Installation](/Setup/Installation.md), click `Open Rude Exporter` on the Welcome tab, or, at the top bar, click `RUDE>Rude Exporter`.
+
+**Rude and Angry recognize sets of levels as Asset Bundles, and even if you only have one level, it'll still be referred to as a bundle.**
+
+Start by clicking `Create New Bundle`.
+![Base Editor Screenshot](EditorBlank.png)
 
 ## Level Requirements
 ***Every level needs certain things to function and be able to be exported and played in the Angry Level Loader.***

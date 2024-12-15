@@ -42,15 +42,15 @@ Now comes the somewhat tedious part: **For every wave, make the *previous* wave 
 
 When you are finished, your hierarchy should look something like this:
 
-![arena hierarchy](assets/arena-tut-hierarchy.png)
+![arena hierarchy](arena-tut-hierarchy.png)
 
 Your start trigger should look something like this:
 
-![arena start trigger](assets/arena-tut-trigger.png)
+![arena start trigger](arena-tut-trigger.png)
 
 And the final wave should look something like this:
 
-![arena finalwave](assets/arena-tut-final-wave.png)
+![arena finalwave](arena-tut-final-wave.png)
 
 ## ArenaStatus
 
@@ -81,7 +81,7 @@ And... that's it! Now encounter 1 should run when first entering the room, and t
 
 You should have a hierarchy like the following:
 
-![advanced arena hierarchy](assets/arena-tut-advanced-hierarchy.png)
+![advanced arena hierarchy](arena-tut-advanced-hierarchy.png)
 
 ## Miscellaneous tips
 

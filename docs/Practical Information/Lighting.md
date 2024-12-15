@@ -1,6 +1,6 @@
-# Lighting 101 (Beginner Tutorial)
+# Lighting
 
-This will teach you the basics to [lighting](https://docs.unity3d.com/2019.4/Documentation/Manual/LightingOverview.html) your Ultrakill levels!
+This will teach you the basics to [lighting](https://docs.unity3d.com/2019.4/Documentation/Manual/LightingOverview.html) your ULTRAKILL levels!
 
 ## Introduction
 
@@ -16,18 +16,18 @@ A couple things before we begin:
 - Ultrakill lighting is slightly different in-game, to see how your lights actually look [build your level](/Quick-Start/Creating%20Levels#exporting-your-level) and test it!
 *Vertex-Lit Lighting (Right):*
 
-![vertex lit example](assets/lighting-101-vertexlit-example.png)
+![vertex lit example](lighting-101-vertexlit-example.png)
 
 ## Scene Lighting Toggle
 The scene lighting toggle; indicated by the button marked in the image below, simply toggles between two lighting modes.
 
 - **Scene Lighting** `Enabled`: Is roughly what your level would look when built and tested in Ultrakill.
 
-![scene lighting on](assets/lighting-101-scene-lights-on.png)
+![scene lighting on](lighting-101-scene-lights-on.png)
 
 - **Scene Lighting** `Disabled`: Shows your level without any lights on and with even lighting, great while creating levels that are dimly lit.
 
-![scene lighting off](assets/lighting-101-scene-lights-off.png)
+![scene lighting off](lighting-101-scene-lights-off.png)
 
 ## Basic Lighting
 
@@ -35,7 +35,7 @@ The scene lighting toggle; indicated by the button marked in the image below, si
 
 To add a light to your scene, simply `🖱 Right Click` in your hierarchy, hover on `Light`, and select the type you want. 
 
-![creating a light](assets/lighting-101-creating-a-light.png)
+![creating a light](lighting-101-creating-a-light.png)
 
 ---
 
@@ -51,14 +51,14 @@ The **Point Light**, lights everything around it uniformly in a spherical shape.
 
 This is the most commonly used type of light for levels, as it is extremely versatile.
 
-![point light showcase](assets/lighting-101-lightingtypes-point.png)
+![point light showcase](lighting-101-lightingtypes-point.png)
 
 ---
 
 ### The Spot Light
 Lights objects in a large conical beam, does essentially the same thing as a real life spotlight. 
 
-![spot light showcase](assets/lighting-101-lightingtypes-spot.png)
+![spot light showcase](lighting-101-lightingtypes-spot.png)
 
 ---
 
@@ -68,7 +68,7 @@ Acts as a Sun, casting uniform light from a specific direction.
 
 Useful for simulating a strong light coming from one direction, or multiple can be used to fully light a level.
 
-![directional light showcase](assets/lighting-101-lightingtypes-directional.png)
+![directional light showcase](lighting-101-lightingtypes-directional.png)
 
 ---
 
@@ -95,11 +95,11 @@ With a `light` selected, the inspector will show these settings:
 - **Range**: Controls how far light from the source will be visible.
     - **Point light** with a range of `10`:
 
-    ![light range small](assets/lighting-101-pointlight-small-range.png)
+    ![light range small](lighting-101-pointlight-small-range.png)
 
     - **Point light** with a range of `25`:
 
-    ![light range small](assets/lighting-101-pointlight-big-range.png)
+    ![light range small](lighting-101-pointlight-big-range.png)
 - **Color**: Sets the color of the light.
 - **Mode**: Sets the rendering mode of the light (**Keep this set to realtime**).
 - **Intensity**: Controls the actual brightness of the light.
@@ -116,7 +116,7 @@ With a `light` selected, the inspector will show these settings:
 > [!WARNING]
 > Be careful when placing many lights in your level as *Ultrakill will only render a maximum of 8 lights on an object*. Having more lights render can cause lights to flicker as the renderer does not know which of these 8 lights to give priorty.
 >
-> To bypass this, consider reading the [Optimization Tutorial](/Tutorials/Intermediate/Optimization%20101.md) to learn how to dynamically unload & load parts of your level!
+> To bypass this, consider reading the [Optimization Tutorial](Optimization.md) to learn how to dynamically unload & load parts of your level!
 
 ---
 
@@ -138,7 +138,7 @@ Since this tab has a lot of information, I'm only going to cover what is relevan
 
 This tab is used for setting your level's skybox, which then can be used to light your level.
 
-![enviroment tab](assets/lighting-101-scene-tab.png)
+![enviroment tab](lighting-101-scene-tab.png)
 
 - **Skybox Material**: Sets the skybox of your level.
     - Choosing a skybox here will apply it to the level, and also add uniform lighting to your level with the overall colour of your skybox:
@@ -146,7 +146,7 @@ This tab is used for setting your level's skybox, which then can be used to ligh
 > [!TIP]
 > To use a skybox and not a solid color, `Camera Fill Mode` must be set to `Skybox` in the `First Room` object.
 >
-> ![firstroom prefab](assets/lighting-101-first-room-lighting.png)
+> ![firstroom prefab](lighting-101-first-room-lighting.png)
 
 - **Intensity Multiplier**: Sets how bright the lighting from your skybox is. *If you don't want the skybox to light the level, set this to `0`*. 
 
