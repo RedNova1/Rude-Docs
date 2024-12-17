@@ -11,8 +11,14 @@
             "id": "60fbc9462dcde66d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docs/Setup/Creating-Levels.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Creating-Levels"
             }
           }
         ]
@@ -35,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -50,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -58,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -81,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/Setup/Creating-Levels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Creating-Levels"
             }
           },
           {
@@ -97,9 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/Setup/Creating-Levels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Creating-Levels"
             }
           },
           {
@@ -110,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -118,7 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/Setup/Creating-Levels.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Creating-Levels"
             }
           }
         ]
@@ -139,5 +163,15 @@
     }
   },
   "active": "60fbc9462dcde66d",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "docs/Setup/Creating-Levels/BundleSetup.png",
+    "docs/Setup/Creating-Levels.md",
+    "docs/Setup/Creating-Levels/LevelSetup.png",
+    "docs/Setup/Creating-Levels/BundleView.png",
+    "docs/Setup/Creating-Levels/EditorBlank.png",
+    "docs/Setup/Quick-Start.md",
+    "docs/Setup/Creating-Levels",
+    "docs/Setup/Installation.md",
+    "docs/Resources/Resources.md"
+  ]
 }

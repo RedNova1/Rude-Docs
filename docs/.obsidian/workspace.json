@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8cc05d0c5a5f96cf",
+        "id": "0e32b48f401fe523",
         "type": "tabs",
         "children": [
           {
-            "id": "60fbc9462dcde66d",
+            "id": "5fd78c22957d35fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Setup/Installation.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Installation"
+              "title": "New tab"
             }
           }
         ]
@@ -162,15 +158,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "60fbc9462dcde66d",
+  "active": "5fd78c22957d35fb",
   "lastOpenFiles": [
-    "Setup/Creating-Levels.md",
-    "Setup/Installation/EditorBlank.png",
+    "README.md",
+    "Untitled.canvas",
+    "2024-12-15.md",
     "Setup/Installation.md",
+    "Home.md",
+    "Setup/Creating-Levels.md",
+    "Setup/Installation/TskMng.png",
+    "Setup/Installation/EditorBlank.png",
     "Setup/Quick-Start.md",
     "Setup/Creating_Levels.md",
     "Setup/Creating.md",
-    "Setup/Installation/TskMng.png",
     "Setup/Installation/ProjectPath.png",
     "Practical Information/Optimization.md",
     "Practical Information/Naming Conventions.md",
@@ -197,7 +197,6 @@
     "assets/rude-docs-banner.png",
     "assets/checkpoint-rooms-to-inherit.png",
     "assets/pink-noooooooooooooooooooooooooooooo.png",
-    "Home.md",
     "Setup/Setup.md",
     "Setup/Quick-Start/Quick-Start.md",
     "New Text Document.txt",

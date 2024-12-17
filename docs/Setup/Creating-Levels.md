@@ -6,8 +6,14 @@
 **Rude and Angry recognize sets of levels as Asset Bundles, and even if you only have one level, it'll still be referred to as a bundle.**
 
 Start by clicking `Create New Bundle`.
-![Base Editor Screenshot](EditorBlank.png)
+![Base Editor Screenshot](/docs/Setup/Creating-Levels/EditorBlank.png)
+> [!CAUTION]
+> Level and Bundle IDs have to be unique! 
 
+Give your bundle a unique name and Add a level to it.
+![BundleSetup](/docs/Setup/Creating-Levels/BundleSetup.png)  
+![BundleView](/docs/Setup/Creating-Levels/BundleView.png)
+![LevelSetup](/docs/Setup/Creating-Levels/LevelSetup.png)
 ## Level Requirements
 ***Every level needs certain things to function and be able to be exported and played in the Angry Level Loader.***
 
@@ -32,9 +38,6 @@ Start by clicking `Create New Bundle`.
     - `Level Challenge Enabled`, when enabled sets your level's challenge to the value contained in `Level Challenge Text`.
     - `Level Challenge Text`, your level's challenge text. This is only displayed if `Level Challenge Enabled` is set to `true`.
     - `Unique Identifer`, used internally for loading levels. 
-
-> [!WARNING]
-> Two levels cannot share the same `Unique Identifer`! 
 
 ---
 
