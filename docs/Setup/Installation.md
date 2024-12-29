@@ -32,7 +32,7 @@ Download `VanityReprised-1.1.0.zip` from [Vanity Reprised](https://github.com/et
 Extract it and run `VanityReprised/AssetRipper.GUI.Free.exe` to open the Splash Screen
 
 Click on `Open ULTRAKILL Folder` and open the **Game Folder(The one containing ULTRAKILL.exe**
-![Installation Path](/docs/Setup/Installation/InstallPath.png)
+![Installation Path](/Setup/Installation/InstallPath.png)
 
 **Don't be alarmed if there are any errors, as long as it says `Finished processing assets` at the end.**
 
@@ -44,12 +44,12 @@ When it prompts you for a folder to write to, create a new folder somewhere that
 You'll know when this step is done because it'll say `Finished post-export`.
 
 Open up Unity Hub and click `Add`, and navigate to the project folder. **IT IS VERY IMPORTANT YOU SELECT THE RIGHT FOLDER. Select the Folder containing the Assets folder in it.**
-![ProjectExample](/docs/Setup/Installation/ProjectPath.png)
+![ProjectExample](/Setup/Installation/ProjectPath.png)
 
 Wait for unity to import everything. This could take anywhere from 30 minutes to multiple hours. Don't worry if it doesn't show up in the taskbar.
 
 If you do want to verify if Unity is running, check Task Manager.
-![TaskManager Screenshot](/docs/Setup/Installation/TskMng.png)
+![TaskManager Screenshot](/Setup/Installation/TskMng.png)
 
 If you get dialogue about a broken Window Layout, Load the Default Layout.
 
